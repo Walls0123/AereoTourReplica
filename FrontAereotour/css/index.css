@@ -1,0 +1,93 @@
+
+.bgprincipal{
+    background-color: #BF0811 !important;
+}
+#nav{
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+#navmenu{
+    flex-direction: column-reverse;
+}
+/* DropDownMenu */
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+a.dropdown-item{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a.dropdown-item:hover{
+    color: #BF0811;
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;   
+}
+.slide{
+    display: none;
+    width: 100%;
+    height: 32%;
+}
+.slide-show{
+    display: block;
+    width: 100%;
+    height: 32%;
+}
+#buscador{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.form-control:focus {
+    border-color: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-control {
+    border-color: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.inputs:focus-within{
+    border-bottom: 5px solid yellow;
+}
+#slider{
+    position: relative;
+}
+#buscador{
+    top: 50%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    
+}
+.inputs{
+    background: rgba(81, 87, 83, 1.2);
+    border: 7px solid rgba(0, 0, 0, 0.3);
+}
+input{
+    height: 100%;
+}
+#destinos{
+    margin-top: 50px;
+}
